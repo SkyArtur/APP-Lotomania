@@ -1,0 +1,8 @@
+# Normaliza arquivos de texto para LF no repositório, independente do
+# sistema operacional ou editor usado para gravá-lo.
+* text=auto eol=lf
+
+*.sh text eol=lf
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf
+*.yml text eol=lf
